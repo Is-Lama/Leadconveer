@@ -1,0 +1,1178 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>LEADCONVEER</title>
+  <link rel="stylesheet" href="./styles/normalize.css">
+  <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__inner container">
+      <a href="/" class="logo">
+        <img class="logo__image" src="./images/LOGO.svg" alt="Leadconveer" width="251" height="70" loading="lazy">
+      </a>
+      <nav class="header__menu hidden-mobile">
+        <ul class="header__menu-list">
+          <li class="header__menu-item">
+            <a href="#how-work" class="header__menu-link">Как это работает</a>
+          </li>
+          <li class="header__menu-item">
+            <a href="#prices" class="header__menu-link">Цена</a>
+          </li>
+          <li class="header__menu-item">
+            <a href="#reviews" class="header__menu-link">Отзывы</a>
+          </li>
+          <li class="header__menu-item">
+            <a href="#contacts" class="header__menu-link">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header__contacts">
+        <a class="header__contacts-whatsapp" href="https://wa.me/74951183282" target="_blank">
+          <img class="whatsapp-icon" src="./images/icons/whatsapp.svg" alt="Написать в Whatsapp" width="40" height="40"
+            loading="lazy">
+        </a>
+        <a class="header__contacts-telegram" href="https://t.me/74951183282" target="_blank">
+          <img class="telegram-icon" src="./images/icons/telegram.svg" alt="Написать в Telegram" width="40" height="40"
+            loading="lazy">
+        </a>
+        <a class="header__contacts-phone" href="tel:+74951183282">+7 495 118-32-82</a>
+        <button class="button__burger-menu burger-button visible-mobile" type="button"
+          onclick="mobileOverlay.showModal()">
+          <span class="visually-hidden">Открыть окно навигации</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="content">
+    <section class="section__hero bg-light-grey">
+      <div class="section section--hero container">
+        <div class="section__body">
+          <div class="hero">
+            <div class="hero__main">
+              <div class="hero__body">
+                <h1 class="hero__title"><span class="title-accent">Лидогенерация</span><br> для бизнеса</h1>
+                <div class="hero__description">
+                  <p>Покупайте только целевые&nbsp;лиды<br> по фиксированной цене от&nbsp;300&nbsp;₽</p>
+                </div>
+                <button class="hero__button button" type="button">
+                  Выбрать пакет лидов
+                </button>
+              </div>
+              <div class="hero__image">
+                <img src="./images/main-banner.png" alt="" width="791" height="497" >
+              </div>
+            </div>
+            <div class="hero__services">
+              <h2 class="visually-hidden">Наши услуги</h2>
+              <ul class="hero__services-list">
+                <li class="hero__services-item">Лидогенерация в&nbsp;b2b</li>
+                <li class="hero__services-item">Биржа лидов</li>
+                <li class="hero__services-item">Сервис по&nbsp;Лидгену</li>
+                <li class="hero__services-item">Лиды для производства</li>
+                <li class="hero__services-item">Клиенты для бизнеса</li>
+                <li class="hero__services-item">Определить телефон посетителя сайта</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container">
+      <header class="section__header">
+        <h2 class="section__title">
+          <span>Завалим ваш отдел продаж</span>
+          <span class="title-accent">целевыми Лидами</span>
+        </h2>
+      </header>
+      <div class="section__body">
+        <div class="offer">
+          <ul class="offer__list">
+            <li class="offer__item">
+              <article class="offer-card bg-light-grey">
+                <div class="offer-card__body">
+                  <h3 class="offer-card__title card__title card__title">Оплата за результат<span
+                      class="offer-card__star"></span></h3>
+                  <p class="offer-card__description card__description">
+                    Вы платите только за переданные и получение вами целевые
+                    Лиды — их&nbsp;контактные данные (телефон, Telegram, email)
+                  </p>
+                </div>
+                <img class="offer-card__image" src="./images/smartphone.png" alt="" loading="lazy">
+              </article>
+            </li>
+            <li class="offer__item">
+              <article class="offer-card bg-light-grey">
+                <div class="offer-card__body">
+                  <h3 class="offer-card__title card__title">Качественные лиды<span class="offer-card__star"></span></h3>
+                  <p class="offer-card__description card__description">
+                    Все передаваемые вам Лиды — это потенциальные клиенты, которые искали ваш товар или услугу
+                  </p>
+                </div>
+                <img class="offer-card__image" src="./images/man.png" alt="" loading="lazy">
+              </article>
+            </li>
+            <li class="offer__item">
+              <article class="offer-card bg-light-grey">
+                <div class="offer-card__body">
+                  <h3 class="offer-card__title card__title">Любой объём&nbsp;—<span
+                      class="offer-card__star"></span><br>на&nbsp;ваш
+                    выбор</h3>
+                  <p class="offer-card__description card__description">
+                    Покупайте сколько контактов потенциальных клиентов в месяц — сколько требуется вам!
+                  </p>
+                </div>
+                <img class="offer-card__image" src="./images/basket.png" alt="" loading="lazy">
+              </article>
+            </li>
+            <li class="offer__item">
+              <article class="offer-card bg-light-grey">
+                <div class="offer-card__body">
+                  <h3 class="offer-card__title card__title">Комплекс технологий<span class="offer-card__star"></span>
+                  </h3>
+                  <p class="offer-card__description card__description">
+                    После расчёта стоимости Лидов и оплаты выбранного пакета — вы получите уникальный код для своего
+                    сайта, который позволит отслеживать контакты тех, кто не оставил заявку
+                  </p>
+                </div>
+                <img class="offer-card__image" src="./images/laptop.png" alt="" loading="lazy">
+              </article>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="prices">
+      <header class="section__header">
+        <h2 class="section__title">
+          <span>Стоимость технологий</span>
+          <span class="title-accent">«Лид Конвейер»</span>
+        </h2>
+        <p class="section__description">
+          Оптимальные тарифы и&nbsp;цены на&nbsp;получение готовых Лидов и&nbsp;заявок с&nbsp;вашего сайта,
+          без&nbsp;переплаты и&nbsp;абонентской&nbsp;платы
+        </p>
+      </header>
+      <div class="section__body">
+        <div class="prices">
+          <ul class="prices__list">
+            <li class="prices__item">
+              <article class="prices-card section-card bg-light-grey">
+                <div class="prices-card__body">
+                  <h3 class="prices-card__title card__title"><span class="prices-card__star-black">Старт</span></h3>
+                  <h4 class="prices-card__subtitle card__subtitle">
+                    <span>50&nbsp;готовых&nbsp;лидов</span>
+                    <span class="text-gradient">за&nbsp;22&nbsp;500&nbsp;₽</span>
+                  </h4>
+                  <p class="prices-card__description card__description">
+                    Стартовый пакет для тех, кто хочет купить Лидов со своего сайта и повысить свои продаж
+                  </p>
+                  <ul class="prices-card__list">
+                    <li class="prices-card__item">
+                      <p>50 Лидов</p>
+                    </li>
+                    <li class="prices-card__item">
+                      <p>
+                        <strong>450 ₽ за один Лид</strong>
+                      </p>
+                    </li>
+                    <li class="prices-card__item">
+                      <p>Получение за 5–7 дней</p>
+                    </li>
+                  </ul>
+                </div>
+                <button class="prices-card__button button" type="button">
+                  купить
+                </button>
+              </article>
+            </li>
+            <li class="prices__item">
+              <article class="prices-card section-card bg-dark">
+                <div class="prices-card__body">
+                  <h3 class="prices-card__title card__title"><span class="prices-card__star-white">Стандарт</span></h3>
+                  <h4 class="prices-card__subtitle card__subtitle">
+                    <span>100&nbsp;готовых&nbsp;лидов</span>
+                    <span class="text-gradient">за&nbsp;40&nbsp;000&nbsp;₽</span>
+                  </h4>
+                  <p class="prices-card__description card__description">
+                    Оптимальный пакет Лидов для любого отдела продаж и для повышения продаж своих товаров или услуг
+                  </p>
+                  <ul class="prices-card__list">
+                    <li class="prices-card__item prices-card__item-white">
+                      <p>100 Лидов</p>
+                    </li>
+                    <li class="prices-card__item prices-card__item-white">
+                      <p>
+                        <strong>400 ₽ за один Лид</strong>
+                      </p>
+                    </li>
+                    <li class="prices-card__item prices-card__item-white">
+                      <p>Получение за 7-14 дней</p>
+                    </li>
+                    <li class="prices-card__item prices-card__item-white">
+                      <p>Возможность показа Лидам рекламы через Яндекс.Директ</p>
+                    </li>
+                  </ul>
+                </div>
+                <button class="prices-card__button button" type="button">
+                  купить
+                </button>
+              </article>
+            </li>
+            <li class="prices__item">
+              <article class="prices-card section-card bg-light-grey">
+                <div class="prices-card__body">
+                  <h3 class="prices-card__title card__title"><span class="prices-card__star-black">Премиум</span></h3>
+                  <h4 class="prices-card__subtitle card__subtitle">
+                    <span>300&nbsp;готовых&nbsp;лидов</span>
+                    <span class="text-gradient">за&nbsp;90&nbsp;000&nbsp;₽</span>
+                  </h4>
+                  <p class="prices-card__description card__description">
+                    Максимум целевых Лидов в ближайшее время для вашего бизнеса которые уже завтра могут стать Вашими
+                    клиентами!
+                  </p>
+                  <ul class="prices-card__list">
+                    <li class="prices-card__item">
+                      <p>300 Лидов</p>
+                    </li>
+                    <li class="prices-card__item">
+                      <p>
+                        <strong>300 ₽ за один Лид</strong>
+                      </p>
+                    </li>
+                    <li class="prices-card__item">
+                      <p>Получение за 14-30 дней</p>
+                    </li>
+                    <li class="prices-card__item">
+                      <p>Возможность показа Лидам рекламы через Яндекс.Директ</p>
+                    </li>
+                    <li class="prices-card__item">
+                      <p>Готовый и конверсионный скрипт продаж целевым Лидам</p>
+                    </li>
+                  </ul>
+                </div>
+                <button class="prices-card__button button" type="button">
+                  купить
+                </button>
+              </article>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container">
+      <header class="section__header">
+        <h2 class="section__title">
+          Дополнительные услуги
+        </h2>
+      </header>
+      <div class="section__body">
+        <div class="services">
+          <ul class="services__list">
+            <li class="services__item">
+              <article class="services-card section-card bg-light-grey">
+                <div class="services-card__body">
+                  <h4 class="services-card__subtitle card__subtitle">
+                    <span>Создание</span>
+                    <span>промо-страницы</span>
+                    <span class="services-card__star"></span>
+                  </h4>
+                  <p class="services-card__description card__description">
+                    от &nbsp;<span class="text-gradient h4">15&nbsp;000&nbsp;₽</span>
+                  </p>
+                </div>
+                <button class="services-card__button button" type="button">
+                  купить
+                </button>
+              </article>
+            </li>
+            <li class="services__item">
+              <article class="services-card section-card bg-light-grey">
+                <div class="services-card__body">
+                  <h4 class="services-card__subtitle card__subtitle">
+                    <span>Настройка и ведение</span>
+                    <span>Яндекс.Директ</span>
+                    <span class="services-card__star"></span>
+                  </h4>
+                  <p class="services-card__description card__description">
+                    от &nbsp;<span class="text-gradient h4">10&nbsp;000&nbsp;₽</span>
+                  </p>
+                </div>
+                <button class="services-card__button button" type="button">
+                  купить
+                </button>
+              </article>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container">
+      <header class="section__header">
+        <h2 class="section__title">
+          <span>Клиенты, которые уже покупают</span>
+          <span class="title-accent">Лидов для своего бизнеса</span>
+        </h2>
+        <p class="section__description">
+          Более 5000 компаний по&nbsp;всей России<br>уже&nbsp;используют покупку Лидов!
+        </p>
+      </header>
+      <div class="section__body">
+        <div class="clients">
+          <ul class="clients__list">
+            <li class="clients__item">
+              <article class="clients-card section-card bg-light-grey">
+                <div class="clients-card__body">
+                  <img class="clients-card__image" src="./images/skoda.svg" alt="Scoda" width="298" height="71"
+                    loading="lazy">
+                </div>
+              </article>
+            </li>
+            <li class="clients__item">
+              <article class="clients-card section-card bg-light-grey">
+                <div class="clients-card__body">
+                  <img class="clients-card__image" src="./images/skillbox.svg" alt="Skillbox" width="234" height="50"
+                    loading="lazy">
+                </div>
+              </article>
+            </li>
+            <li class="clients__item">
+              <article class="clients-card section-card bg-light-grey">
+                <div class="clients-card__body">
+                  <img class="clients-card__image" src="./images/world_class.svg" alt="World Class" width="250"
+                    height="71" loading="lazy">
+                </div>
+              </article>
+            </li>
+            <li class="clients__item">
+              <article class="clients-card section-card bg-light-grey">
+                <div class="clients-card__body">
+                  <img class="clients-card__image" src="./images/absolut_bank.svg" alt="Абсолют банк" width="230"
+                    height="69" loading="lazy">
+                </div>
+              </article>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="reviews">
+      <header class="section__header">
+        <h2 class="section__title">
+          Отзывы клиентов
+        </h2>
+        <p class="section__description">
+          Более 89% наших клиентов сотрудничают с&nbsp;нами<br>ежемесячно на&nbsp;протяжении более&nbsp;2-х&nbsp;лет
+        </p>
+      </header>
+      <div class="section__body">
+        <div class="reviews">
+          <ul class="reviews__list">
+            <li class="reviews__item">
+              <article class="reviews-card section-card bg-light-grey">
+                <div class="reviews-card__body">
+                  <div class="reviews-card__title">
+                    <h4 class="reviews-card__subtitle card__subtitle">5,0</h4>
+                    <div class="reviews-card__rating" aria-label="Рейтинг: 5 из 5">
+                      <span class="reviews-card__star" aria-hidden="true"></span>
+                      <span class="reviews-card__star" aria-hidden="true"></span>
+                      <span class="reviews-card__star" aria-hidden="true"></span>
+                      <span class="reviews-card__star" aria-hidden="true"></span>
+                      <span class="reviews-card__star" aria-hidden="true"></span>
+                    </div>
+                  </div>
+                  <p class="reviews-card__description card__description card__description-dark">
+                    «Стабильно получаем новые лиды&nbsp;из&nbsp;сервиса. С&nbsp;точки зрения&nbsp;рентабельности
+                    нареканий&nbsp;нет. Тёплая
+                    заявка&nbsp;800–1000&nbsp;рублей, конверсия, цена-качество устраивает. Общее впечатление достаточно
+                    хорошее,
+                    цена, качество, скорость».
+                  </p>ёёё
+                  <p class="reviews-card__description card__description">
+                    Ниша: банкротство, списание долгов
+                  </p>
+                </div>
+              </article>
+            </li>
+            <li class="reviews__item">
+              <article class="reviews-card section-card bg-light-grey">
+                <div class="reviews-card__body">
+                  <div class="reviews-card__title">
+                    <h4 class="reviews-card__subtitle card__subtitle">4,8</h4>
+                    <div class="reviews-card__rating" aria-label="Рейтинг: 4,8 из 5">
+                      <span class="reviews-card__star" aria-hidden="true"></span>
+                      <span class="reviews-card__star" aria-hidden="true"></span>
+                      <span class="reviews-card__star" aria-hidden="true"></span>
+                      <span class="reviews-card__star" aria-hidden="true"></span>
+                      <span class="reviews-card__last-star"></span>
+                    </div>
+                  </div>
+                  <p class="reviews-card__description card__description card__description-dark">
+                    «С вашим сервисом работаем с&nbsp;июня&nbsp;22&nbsp;года. Нас заинтересовало,
+                    и&nbsp;мы&nbsp;решили протестировать. Взяли
+                    минимальный&nbsp;пакет из&nbsp;10&nbsp;новых лидов, а&nbsp;потом, как&nbsp;он&nbsp;закончился, взяли
+                    повышенный пакет. Учитывая нашу&nbsp;сферу
+                    и&nbsp;посмотреть статистику, из&nbsp;100&nbsp;заинтересованных 15&nbsp;в&nbsp;продажу. Это хороший
+                    результат».
+                  </p>
+                  <p class="reviews-card__description card__description">
+                    Ниша: банкротство, списание долгов
+                  </p>
+                </div>
+              </article>
+            </li>
+            <li class="reviews__item">
+              <article class="reviews-card section-card bg-light-grey">
+                <div class="reviews-card__body">
+                  <div class="reviews-card__title">
+                    <h4 class="reviews-card__subtitle card__subtitle">5,0</h4>
+                    <div class="reviews-card__rating" aria-label="Рейтинг: 5 из 5">
+                      <span class="reviews-card__star" aria-hidden="true"></span>
+                      <span class="reviews-card__star" aria-hidden="true"></span>
+                      <span class="reviews-card__star" aria-hidden="true"></span>
+                      <span class="reviews-card__star" aria-hidden="true"></span>
+                      <span class="reviews-card__star" aria-hidden="true"></span>
+                    </div>
+                  </div>
+                  <p class="reviews-card__description card__description card__description-dark">
+                    «С сервисом работаем чуть меньше года. Немного сомневались, но&nbsp;согласились попробовать,
+                    а&nbsp;после продолжили работать. Новые клиенты появились сразу, передали
+                    на&nbsp;наш&nbsp;колл-центр. С&nbsp;вашего
+                    источника дешевле, чем&nbsp;с&nbsp;других сервисов. Безусловно, с&nbsp;вами стоит работать».
+                  </p>
+                  <p class="reviews-card__description card__description">
+                    Ниша: банкротство, списание долгов
+                  </p>
+                </div>
+              </article>
+            </li>
+            <li class="reviews__item">
+              <article class="reviews-card section-card bg-light-grey">
+                <div class="reviews-card__body">
+                  <div class="reviews-card__title">
+                    <h4 class="reviews-card__subtitle card__subtitle">4,9</h4>
+                    <div class="reviews-card__rating" aria-label="Рейтинг: 4,9 из 5">
+                      <span class="reviews-card__star" aria-hidden="true"></span>
+                      <span class="reviews-card__star" aria-hidden="true"></span>
+                      <span class="reviews-card__star" aria-hidden="true"></span>
+                      <span class="reviews-card__star" aria-hidden="true"></span>
+                      <span class="reviews-card__last-star"></span>
+                    </div>
+                  </div>
+                  <p class="reviews-card__description card__description card__description-dark">
+                    «С вашей компанией работаем более 2-х&nbsp;лет, сотрудничество полезное.
+                    Мы&nbsp;все&nbsp;посмотрели, разобрались,
+                    что&nbsp;сервис даёт реально целевые заявки. Заключили контракт на&nbsp;23&nbsp;000&nbsp;рублей,
+                    окупилось. Понравилась
+                    технология, она&nbsp;помогает нам&nbsp;получать лиды».
+                  </p>
+                  <p class="reviews-card__description card__description">
+                    Ниша: банкротство, списание долгов
+                  </p>
+                </div>
+              </article>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container">
+      <div class="section__body">
+        <div class="technology">
+          <div class="technology__image">
+            <div class="technology__image-wrapper">
+              <img src="./images/technology.png" alt="Technology" width="677" height="442" loading="lazy">
+            </div>
+          </div>
+          <div class="technology__body">
+            <h2 class="technology__title section__title">
+              <span>Технология</span>
+              <span class="title-accent">«Лид Конвейер»</span>
+            </h2>
+            <div class="technology__description">
+              <p class="card__description card__description-dark">
+                Мы разработали программный комплекс, который позволяет определять контактные данные (телефон, Telegram,
+                email) тех&nbsp;посетителей вашего сайта, кто был на&nbsp;сайте, но&nbsp;не&nbsp;оставил заявку.
+              </p>
+              <p class="card__description card__description-dark">
+                Далее, на&nbsp;основе собственных разработок, мы&nbsp;идентифицируем пользователей по&nbsp;интересам
+                и&nbsp;интересующим
+                их&nbsp;товарам и&nbsp;услугам — вам&nbsp;передаём только тех, кто заинтересован в&nbsp;вашей услуге
+                или&nbsp;товаре.
+              </p>
+              <p class="card__description card__description-dark">
+                Вы&nbsp;платите только за&nbsp;результат — за&nbsp;полученных Лидов (заявки) на&nbsp;свои услуги
+                или&nbsp;товары.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container">
+      <div class="section__body section__body-dark">
+        <div class="registration">
+          <div class="registration__body">
+            <h2 class="registration__title section__title">
+              <span class="title-light">Зарегистрируйтесь и&nbsp;добавьте&nbsp;свой проект в&nbsp;систему&nbsp;— начните
+                получать&nbsp;Лидов сегодня!</span>
+            </h2>
+            <button class="registration__button button" type="button">Зарегистрироваться</button>
+          </div>
+          <div class="registration__image">
+            <div class="registration__image-wrapper registration-banner-first">
+              <img src="./images/register-banner.png" alt="registration" width="683" height="403" loading="lazy">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="how-work">
+      <div class="section__body section__body-light-grey">
+        <div class="slider">
+          <ul class="slider__list">
+            <li class="slider__item">
+              <article class="slider__card">
+                <header class="section__header slider__header">
+                  <h2 class="section__title">Как это работает?</h2>
+                </header>
+                <div class="slider__body">
+                  <div class="slider__title">
+                    <h4 class="slider__step-number step-number step-one">
+                      01
+                    </h4>
+                    <p class="slider__step-heading h4">
+                      Регистрация<br>и&nbsp;добавление проекта в&nbsp;систему
+                    </p>
+                  </div>
+                  <div class="slider__content card__description card__description-dark">
+                    <ol class="slider__content-list">
+                      <li class="slider__content-item">
+                        Зарегистрируйтесь в нашем личном кабинете
+                      </li>
+                      <li class="slider__content-item">
+                        При добавление проекта вам необходимо указать URL (адрес) своего сайта
+                      </li>
+                      <li class="slider__content-item">
+                        Для&nbsp;вашего сайта будет сгенерирован уникальный код, который необходимо установить
+                        на&nbsp;свой сайт (в&nbsp;шаблоне сайта, перед&nbsp;тегом &lt;/head&gt;)
+                      </li>
+                    </ol>
+                  </div>
+                </div>
+              </article>
+            </li>
+            <li class="slider__item">
+              <article class="slider__card">
+                <header class="section__header slider__header">
+                  <h2 class="section__title">Как это работает?</h2>
+                </header>
+                <div class="slider__body">
+                  <div class="slider__title">
+                    <h4 class="slider__step-number step-number step-two">
+                      02
+                    </h4>
+                    <p class="slider__step-heading h4">
+                      Выбор пакета<br>и&nbsp;количества Лидов
+                    </p>
+                  </div>
+                  <div class="slider__content">
+                    <p class="card__description card__description-dark">
+                      После добавления проекта в&nbsp;систему, вам&nbsp;необходимо выбрать тот&nbsp;пакет
+                      и&nbsp;количество Лидов, которое вам&nbsp;необходимо.
+                    </p>
+                  </div>
+                </div>
+              </article>
+            </li>
+            <li class="slider__item">
+              <article class="slider__card">
+                <header class="section__header slider__header">
+                  <h2 class="section__title">Как это работает?</h2>
+                </header>
+                <div class="slider__body">
+                  <div class="slider__title">
+                    <h4 class="slider__step-number step-number step-three">
+                      03
+                    </h4>
+                    <p class="slider__step-heading h4">
+                      Оплата проекта
+                    </p>
+                  </div>
+                  <div class="slider__content">
+                    <p class="card__description card__description-dark">
+                      Оплатить Лидов вы&nbsp;сможете пластиковой картой или&nbsp;безналичным переводом.
+                    </p>
+                  </div>
+                </div>
+              </article>
+            </li>
+            <li class="slider__item">
+              <article class="slider__card">
+                <header class="section__header slider__header">
+                  <h2 class="section__title">Как это работает?</h2>
+                </header>
+                <div class="slider__body">
+                  <div class="slider__title">
+                    <h4 class="slider__step-number step-number step-four">
+                      04
+                    </h4>
+                    <p class="slider__step-heading h4">
+                      Получение кода для&nbsp;сайта
+                    </p>
+                  </div>
+                  <div class="slider__content">
+                    <p class="card__description card__description-dark">
+                      После&nbsp;оплаты, система для&nbsp;вас&nbsp;сгенерирует код, который вам&nbsp;необходимо
+                      установить на&nbsp;свой сайт (в&nbsp;шаблоне сайта, перед&nbsp;тегом &lt;/head&gt;).
+                    </p>
+                  </div>
+                </div>
+              </article>
+            </li>
+            <li class="slider__item">
+              <article class="slider__card">
+                <header class="section__header slider__header">
+                  <h2 class="section__title">Как это работает?</h2>
+                </header>
+                <div class="slider__body">
+                  <div class="slider__title">
+                    <h4 class="slider__step-number step-number step-five">
+                      05
+                    </h4>
+                    <p class="slider__step-heading h4">
+                      Начало получения Лидов
+                    </p>
+                  </div>
+                  <div class="slider__content">
+                    <p class="card__description card__description-dark">
+                      В&nbsp;зависимости от&nbsp;вашей тематики (услуги или&nbsp;товара),
+                      а&nbsp;также&nbsp;объёма вашего трафика сайта система будет добавлять в&nbsp;личном кабинете
+                      контакты
+                      потенциальных клиентов, заинтересованных в&nbsp;вашей услуги и&nbsp;из&nbsp;вашего региона.
+                    </p>
+                  </div>
+                </div>
+              </article>
+            </li>
+          </ul>
+          <div class="slider__pagination pagination">
+            <ul class="pagination__list">
+              <li class="pagination__item">
+                <button class="pagination__button is-current" data-index="0" type="button">
+                  <span class="visually-hidden">First slide</span>
+                </button>
+              </li>
+              <li class="pagination__item">
+                <button class="pagination__button" data-index="1" type="button">
+                  <span class="visually-hidden">Second slide</span>
+                </button>
+              </li>
+              <li class="pagination__item">
+                <button class="pagination__button" data-index="2" type="button">
+                  <span class="visually-hidden">Third slide</span>
+                </button>
+              </li>
+              <li class="pagination__item">
+                <button class="pagination__button" data-index="3" type="button">
+                  <span class="visually-hidden">Fourth slide</span>
+                </button>
+              </li>
+              <li class="pagination__item">
+                <button class="pagination__button" data-index="4" type="button">
+                  <span class="visually-hidden">fifth slide</span>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section container">
+      <header class="section__header">
+        <h2 class="section__title">
+          <span>Мы&nbsp;подготовили для&nbsp;вас&nbsp;</span>
+          <span>видео-презентацию <span class="title-accent">нашей работы</span></span>
+        </h2>
+      </header>
+      <div class="section__body">
+        <div class="video-presentation">
+          <video class="video-presentation__video" controls playsinline muted poster="./images/presentation.svg">
+            <source src="/" type="video/mp4">
+            <source src="/" type="video/webm">
+            Ваш браузер не поддерживает встроенные видео.
+          </video>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container">
+      <header class="section__header">
+        <h2 class="section__title">
+          <span>Почему лучше</span>
+          <span class="title-accent">заказать Лидов у&nbsp;нас</span>
+        </h2>
+        <p class="section__description">
+          Лидогенерация&nbsp;— это&nbsp;стабильное получение клиентов и&nbsp;выполнение плана по&nbsp;продажам!
+        </p>
+      </header>
+      <div class="section__body">
+        <div class="advantages">
+          <ul class="advantages__list advantages__list-top">
+            <li class="advantages__item">
+              <article class="advantages-card section-card bg-light-grey">
+                <div class="advantages-card__body">
+                  <div class="advantages-card__title">
+                    <h4 class="advantages-card__step-number step-number step-one">
+                      01
+                    </h4>
+                  </div>
+                  <div class="advantages-card__content">
+                    <p class="advantages-card__description card__description card__description-dark">
+                      Только качественные Лиды. Мы&nbsp;идентифицируем только
+                      тех&nbsp;посетителей, которым интересна ваша услуги и&nbsp;из&nbsp;вашего города.
+                    </p>
+                  </div>
+                </div>
+              </article>
+            </li>
+            <li class="advantages__item">
+              <article class="advantages-card section-card bg-light-grey">
+                <div class="advantages-card__body">
+                  <div class="advantages-card__title">
+                    <h4 class="advantages-card__step-number step-number step-one">
+                      02
+                    </h4>
+                  </div>
+                  <div class="advantages-card__content">
+                    <p class="advantages-card__description card__description card__description-dark">
+                      Доступная цена и&nbsp;отсутствие минимального порога. У&nbsp;нас&nbsp;отсутствует минимальная
+                      плата за&nbsp;сервис,
+                      подписка&nbsp;и&nbsp;т.п. Вы&nbsp;покупаете столько Лидов&nbsp;— сколько хотите!
+                    </p>
+                  </div>
+                </div>
+              </article>
+            </li>
+            <li class="advantages__item">
+              <article class="advantages-card section-card bg-light-grey">
+                <div class="advantages-card__body">
+                  <div class="advantages-card__title">
+                    <h4 class="advantages-card__step-number step-number step-one">
+                      03
+                    </h4>
+                  </div>
+                  <div class="advantages-card__content">
+                    <p class="advantages-card__description card__description card__description-dark">
+                      Техническая поддержка и&nbsp;комплекс услуг. Мы&nbsp;работаем для&nbsp;вас&nbsp;24/7!
+                    </p>
+                  </div>
+                </div>
+              </article>
+            </li>
+          </ul>
+          <ul class="advantages__list advantages__list-bottom">
+            <li class="advantages__item">
+              <article class="advantages-card section-card bg-light-grey">
+                <div class="advantages-card__body">
+                  <div class="advantages-card__icon hight-voltage"></div>
+                  <div class="advantages-card__content">
+                    <p class="advantages-card__description card__description">
+                      <b>Источник Лидов:</b>
+                    </p>
+                    <p class="advantages-card__description card__description">
+                      контекстная реклама в&nbsp;Яндекс.Директ, SEO, SMM и&nbsp;другая реклама дополняют
+                      технологию&nbsp;
+                      «Лид&nbsp;Конвейер».
+                    </p>
+                  </div>
+                </div>
+              </article>
+            </li>
+            <li class="advantages__item">
+              <article class="advantages-card section-card bg-light-grey">
+                <div class="advantages-card__body">
+                  <div class="advantages-card__icon fire"></div>
+                  <div class="advantages-card__content">
+                    <p class="advantages-card__description card__description">
+                      <b>Вы&nbsp;экономите на&nbsp;рекламе:</b>
+                    </p>
+                    <p class="advantages-card__description card__description">
+                      получая контактные данных тех, кто&nbsp;не&nbsp;оставил заявки, но&nbsp;заинтересован в&nbsp;Вашем
+                      товаре или&nbsp;услуге&nbsp;—
+                      это&nbsp;дополнительный канал продаж.
+                    </p>
+                  </div>
+                </div>
+              </article>
+            </li>
+            <li class="advantages__item">
+              <article class="advantages-card section-card bg-light-grey">
+                <div class="advantages-card__body">
+                  <div class="advantages-card__icon star"></div>
+                  <div class="advantages-card__content">
+                    <p class="advantages-card__description card__description">
+                      <b>Вы&nbsp;сможете прогнозировать продажи:</b>
+                    </p>
+                    <p class="advantages-card__description card__description">
+                      чтобы&nbsp;не&nbsp;ждать, когда-же кто‑то позвонит или&nbsp;оставит заявку, звоните
+                      и&nbsp;продавайте первым!
+                    </p>
+                  </div>
+                </div>
+              </article>
+            </li>
+            <li class="advantages__item">
+              <article class="advantages-card section-card bg-light-grey">
+                <div class="advantages-card__body">
+                  <div class="advantages-card__icon hundred"></div>
+                  <div class="advantages-card__content">
+                    <p class="advantages-card__description card__description">
+                      <b>Безопасно:</b>
+                    </p>
+                    <p class="advantages-card__description card__description">
+                      это&nbsp;абсолютно легальный и&nbsp;законный метод получения Лидов.
+                    </p>
+                  </div>
+                </div>
+              </article>
+            </li>
+            <li class="advantages__item">
+              <article class="advantages-card section-card bg-light-grey">
+                <div class="advantages-card__body">
+                  <div class="advantages-card__icon woman-running"></div>
+                  <div class="advantages-card__content">
+                    <p class="advantages-card__description card__description">
+                      <b>Быстро:</b>
+                    </p>
+                    <p class="advantages-card__description card__description">
+                      запуск и&nbsp;получение первых Лидов обычно занимает 5–7&nbsp;дней, а&nbsp;добавление проекта
+                      в&nbsp;систему менее
+                      1&nbsp;часа.
+                    </p>
+                  </div>
+                </div>
+              </article>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container">
+      <div class="section__body section__body-dark">
+        <div class="registration registration-second">
+          <div class="registration__image">
+            <div class="registration__image-wrapper registration-banner-second">
+              <img src="./images/register-banner-2.png" alt="registration" width="683" height="403" loading="lazy">
+            </div>
+          </div>
+          <div class="registration__body">
+            <h2 class="registration__title section__title">
+              <span class="title-light">Давайте принесём<br>результат Вашему бизнесу?<br>Завалите своей отдел<br>продаж
+                Лидами!</span>
+            </h2>
+            <button class="registration__button button" type="button">Зарегистрироваться</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container">
+      <header class="section__header">
+        <h2 class="section__title">
+          Вопросы и&nbsp;ответы
+        </h2>
+      </header>
+      <div class="section__body">
+        <div class="questions">
+          <ul class="questions__list">
+            <li class="questions__item">
+              <details class="questions__accordion" open>
+                <summary class="questions__accordion-header bg-light-grey">
+                  <span class="questions__accordion-question card__description card__description-dark">
+                    На&nbsp;сколько это&nbsp;безопасно, законно&nbsp;и&nbsp;может&nbsp;ли навредить моему сайту?
+                  </span>
+                  <span class="questions__accordion-indicator"></span>
+                </summary>
+                <div class="questions__accordion-body card__description card__description-black bg-light-grey">
+                  <p>Происходит обработка обезличенных данных (cookies). Cookies - маленький фрагмент данных, который
+                    сохраняется в браузере и передается при обращению к сайтам.
+                  </p>
+                  <p>
+                    Вы можете разместить в политике конфиденциальности условия с согласием на передачу и обработку
+                    cookies посетителями вашего сайта. Таким образом, это гарантирует полную легальность работы с
+                    данными.
+                  </p>
+                  <p>
+                    Для сайта это не может навредить, и санкций со стороны поисковых системы (Яндекс, Google) нет.
+                  </p>
+                </div>
+              </details>
+            </li>
+            <li class="questions__item">
+              <details class="questions__accordion">
+                <summary class="questions__accordion-header bg-light-grey">
+                  <span class="questions__accordion-question card__description card__description-dark">
+                    Откуда берутся номера телефонов?
+                  </span>
+                  <span class="questions__accordion-indicator"></span>
+                </summary>
+                <div class="questions__accordion-body card__description card__description-black bg-light-grey">
+                  <p>Происходит обработка обезличенных данных (cookies). Cookies - маленький фрагмент данных, который
+                    сохраняется в браузере и передается при обращению к сайтам.
+                  </p>
+                  <p>
+                    Вы можете разместить в политике конфиденциальности условия с согласием на передачу и обработку
+                    cookies посетителями вашего сайта. Таким образом, это гарантирует полную легальность работы с
+                    данными.
+                  </p>
+                  <p>
+                    Для сайта это не может навредить, и санкций со стороны поисковых системы (Яндекс, Google) нет.
+                  </p>
+                </div>
+              </details>
+            </li>
+            <li class="questions__item">
+              <details class="questions__accordion">
+                <summary class="questions__accordion-header bg-light-grey">
+                  <span class="questions__accordion-question card__description card__description-dark">
+                    Смогу&nbsp;ли&nbsp;я сам&nbsp;установить код&nbsp;на&nbsp;сайт?
+                  </span>
+                  <span class="questions__accordion-indicator"></span>
+                </summary>
+                <div class="questions__accordion-body card__description card__description-black bg-light-grey">
+                  <p>Происходит обработка обезличенных данных (cookies). Cookies - маленький фрагмент данных, который
+                    сохраняется в браузере и передается при обращению к сайтам.
+                  </p>
+                  <p>
+                    Вы можете разместить в политике конфиденциальности условия с согласием на передачу и обработку
+                    cookies посетителями вашего сайта. Таким образом, это гарантирует полную легальность работы с
+                    данными.
+                  </p>
+                  <p>
+                    Для сайта это не может навредить, и санкций со стороны поисковых системы (Яндекс, Google) нет.
+                  </p>
+                </div>
+              </details>
+            </li>
+            <li class="questions__item">
+              <details class="questions__accordion">
+                <summary class="questions__accordion-header bg-light-grey">
+                  <span class="questions__accordion-question card__description card__description-dark">
+                    На&nbsp;какую CMS или&nbsp;конструктор можно установить код «Лид&nbsp;Конвейер»?
+                  </span>
+                  <span class="questions__accordion-indicator"></span>
+                </summary>
+                <div class="questions__accordion-body card__description card__description-black bg-light-grey">
+                  <p>Происходит обработка обезличенных данных (cookies). Cookies - маленький фрагмент данных, который
+                    сохраняется в браузере и передается при обращению к сайтам.
+                  </p>
+                  <p>
+                    Вы можете разместить в политике конфиденциальности условия с согласием на передачу и обработку
+                    cookies посетителями вашего сайта. Таким образом, это гарантирует полную легальность работы с
+                    данными.
+                  </p>
+                  <p>
+                    Для сайта это не может навредить, и санкций со стороны поисковых системы (Яндекс, Google) нет.
+                  </p>
+                </div>
+              </details>
+            </li>
+            <li class="questions__item">
+              <details class="questions__accordion">
+                <summary class="questions__accordion-header bg-light-grey">
+                  <span class="questions__accordion-question card__description card__description-dark">
+                    Как&nbsp;оплатить ваш&nbsp;сервис?
+                  </span>
+                  <span class="questions__accordion-indicator"></span>
+                </summary>
+                <div class="questions__accordion-body card__description card__description-black bg-light-grey">
+                  <p>Происходит обработка обезличенных данных (cookies). Cookies - маленький фрагмент данных, который
+                    сохраняется в браузере и передается при обращению к сайтам.
+                  </p>
+                  <p>
+                    Вы можете разместить в политике конфиденциальности условия с согласием на передачу и обработку
+                    cookies посетителями вашего сайта. Таким образом, это гарантирует полную легальность работы с
+                    данными.
+                  </p>
+                  <p>
+                    Для сайта это не может навредить, и санкций со стороны поисковых системы (Яндекс, Google) нет.
+                  </p>
+                </div>
+              </details>
+            </li>
+          </ul>
+          <div class="questions__image">
+            <img src="./images/questions-banner.png" alt="" width="879" height="581.5" loading="lazy" >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container">
+      <div class="section__body">
+        <div class="lead-generation">
+          <div class="lead-generation__header">
+            <h2 class="lead-generation__title section__title">
+              <span class="title-accent">Лидогенерация&nbsp;—</span>
+              <span>это&nbsp;новая<br>эра&nbsp;маркетинга!</span>
+            </h2>
+            <span class="lead-generation__icon"></span>
+            <button class="lead-generation__button button" type="button">Купить Лиды</button>
+          </div>
+          <div class="lead-generation__body">
+            <div class="lead-generation__description">
+              <p class="card__description card__description-dark">
+                Использование лидогенерации снижает стоимость привлечения клиентов, позволяет бизнесу сосредоточиться
+                на&nbsp;основном продукте и&nbsp;значительно упрощает процесс работы.
+              </p>
+              <p class="card__description card__description-dark">
+                Стоимость заявок на&nbsp;нашей платформе зависит от&nbsp;их&nbsp;качества и&nbsp;сложности.
+                Мы&nbsp;предоставляем прозрачные
+                тарифы и&nbsp;выгодные условия сотрудничества.
+              </p>
+              <p class="card__description card__description-dark">
+                Наша биржа&nbsp;— это&nbsp;место встречи тех, кто&nbsp;заказывает заявки, и&nbsp;тех,
+                кто&nbsp;их&nbsp;предоставляет. Мы&nbsp;создаём
+                условия для&nbsp;успешного сотрудничества и&nbsp;взаимной выгоды.
+              </p>
+            </div>
+            <div class="lead-generation__description hidden" id="lead-generation-more">
+              <p class="card__description card__description-dark">
+                Биржа лидов&nbsp;— это&nbsp;современное решение для&nbsp;бизнеса, которое позволяет эффективно находить
+                новых клиентов
+                и&nbsp;масштабировать свою деятельность.
+              </p>
+              <p class="card__description card__description-dark">
+                Использование биржи помогает оптимизировать стоимость привлечения заявок и&nbsp;получить готовые решения
+                для&nbsp;лидогенерации. Наш&nbsp;сервис предоставляет уникальную возможность купить или&nbsp;продать
+                лиды, обеспечивая
+                прозрачность и&nbsp;надёжность каждой сделки.
+              </p>
+              <p class="card__description card__description-dark">
+                Мы&nbsp;объединяем вебмастеров, готовых передать заявки, и&nbsp;бизнесы, которым нужны новые клиенты.
+                На&nbsp;нашей
+                платформе вебмастеры размещают готовые заявки, которые затем приобретаются бизнесами
+                для&nbsp;привлечения
+                новых клиентов. Это&nbsp;упрощает процесс взаимодействия и&nbsp;повышает эффективность работы. Каждая
+                заявка
+                проходит тщательную проверку, чтобы&nbsp;обеспечить максимальную ценность для&nbsp;бизнеса.
+              </p>
+              <p class="card__description card__description-dark">
+                Вы&nbsp;покупаете лиды, уже&nbsp;готовые к&nbsp;взаимодействию, и&nbsp;получаете гарантированный
+                результат.
+              </p>
+            </div>
+            <button class="lead-generation__read-more card__description" id="lead-generation-link" type="button">Читать больше
+              <span class="visually-hidden">Читать больше о лидогенерации</span>
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="contacts">
+      <div class="section__body section__body-light-grey">
+        <div class="contacts">
+          <div class="contacts__body">
+            <h2 class="contacts__title section__title">
+              <span>Контакты</span>
+            </h2>
+            <div class="contacts__description">
+              <p class="section__description">
+                Есть&nbsp;вопрос, или&nbsp;вы&nbsp;хотите получить бесплатную консультацию? Свяжитесь с&nbsp;нами,
+                и&nbsp;мы&nbsp;предоставим необходимую информацию!
+              </p>
+            </div>
+            <address class="contacts__content">
+              <div class="contacts__office-address">
+                <p class="section__description">Адрес офиса</p>
+                <p class="section__description section__description-dark">г.&nbsp;Москва, ул.&nbsp;Дубининская,
+                  д.&nbsp;53</p>
+              </div>
+              <div class="contacts__office-address">
+                <p class="section__description">Телефон: </p>
+                <a class="section__description section__description-dark"
+                  href="tel:+74951183282">+7&nbsp;495&nbsp;118-32-82</a>
+              </div>
+              <div class="contacts__office-address">
+                <p class="section__description">Электронная почта: </p>
+                <a class="section__description section__description-dark"
+                  href="mailto:mailbox@leadconveer.ru">mailbox@leadconveer.ru</a>
+              </div>
+              <p class="section__description section__description-tg">
+                Или&nbsp;напишите нам в&nbsp;любимом мессенджере: 
+                <a href="https://t.me/74951183282" class="contacts__tg"><span class="contacts__tg-icon"></span></a>
+              </p>           
+            </address>
+          </div>
+          <div class="contacts__image">
+            <div class="contacts__image-wrapper">
+              <img src="./images/contacts-banner.png" alt="Contacts banner" width="880" height="847" loading="lazy">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <footer class="footer">
+    <div class="footer__inner container">
+      <p class="footer__copyright">
+          © <time datetime="2025">2025</time> Все&nbsp;права защищены.&nbsp;Технология «Лид&nbsp;Конвейер» - лидогенерация для&nbsp;бизнес
+        </p>
+        <p class="footer__info">ООО&nbsp;«ДС-ГРУПП» ИНН&nbsp;7801355174&nbsp;ОГРН 1187847129425</p>
+        <div class="footer__links">
+          <a href="/" class="footer__link">Блог&nbsp;<span class="footer__pipe">|</span></a>
+          <a href="/" class="footer__link">Договор-оферта&nbsp;<span class="footer__pipe">|</span></a>
+          <a href="/" class="footer__link">Политика конфиденциальности&nbsp;<span class="footer__pipe">|</span></a>
+          <a href="/" class="footer__link">Соглашение об&nbsp;обработке данных&nbsp;<span class="footer__pipe">|</span></a>
+          <a href="/" class="footer__link">Вход в&nbsp;личный кабинет</a>
+        </div>
+    </div>
+  </footer>
+  <dialog class="mobile-overlay visible-mobile" id="mobileOverlay">
+    <form class="mobile-overlay__close-button-wrapper" method="dialog">
+      <button class="mobile-overlay__close-button cross-button" type="submit">
+        <span class="visually-hidden">Close navigation menu</span>
+      </button>
+    </form>
+    <div class="mobile-overlay__body header__menu">
+      <ul class="mobile-overlay__list">
+        <li class="mobile-overlay__item">
+          <a href="#how-work" class="mobile-overlay__link">Как это работает</a>
+        </li>
+        <li class="mobile-overlay__item">
+          <a href="#prices" class="mobile-overlay__link">Цена</a>
+        </li>
+        <li class="mobile-overlay__item">
+          <a href="#reviews" class="mobile-overlay__link">Отзывы</a>
+        </li>
+        <li class="mobile-overlay__item">
+          <a href="#contacts" class="mobile-overlay__link">Контакты</a>
+        </li>
+      </ul>
+    </div>
+  </dialog>
+
+  <script src="./js/main.js"></script>
+
+</body>
+
+</html>
